@@ -7,7 +7,7 @@ body{
     margin: 0px;
     width: 100px;
     height: 619px;
-    background-color: #94714f;
+    background-color: rgb(189, 111, 38);
 }
 
 .nav{
@@ -54,56 +54,66 @@ a.fa-envelope:visited{
     text-decoration: none;
 }
 
-img{
-    width: 1150px;
-    height: 619px;
+.create{
     margin-left: 110px;
-    position: relative;
-    filter: brightness(50%);
 }
 
-.title{
-    color: white;
-    border: 5px solid white;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    position: absolute;
-    right: 170px;
-    top: 150px;
+p{
+    color: antiquewhite;
     font-family: 'Montserrat', sans-serif;
-    font-size: 70px;
-}
-
-.by{
-    color: whitesmoke;
-    font-size: 32px;
-    font-style: italic;
-    position: absolute;
-    right: 450px;
-    top: 300px;
-}
-
-.greet{
-    display: flex;
-    flex-flow: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 100px;
-    padding-left: 120px;
-    padding-right: 120px;
-}
-
-.welcome{
-    color: antiquewhite;
-    font-family: 'Monsieur La Doulaise', cursive;
-    font-size: 60px;
-    border-bottom: 2px solid antiquewhite;
-}
-
-.p1{
-    color: antiquewhite;
-    font-size: 18px;
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
     text-align: center;
+}
+
+label{
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.select{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+input[type=text] {
+    width: 800px;
+}
+
+.story{
+    height: 400px;
+}
+
+.fill{
+    margin-left: 70px;
+    padding-left: 30px;
+    border-left: 4px solid antiquewhite;
+    margin-top: 70px;
+}
+
+.form{
+    margin-bottom: 20px;
+    padding-top: 0px;
+    text-align: left;
+}
+
+.submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid antiquewhite;
+    width: 200px;
+    text-align: center;
+    font-size: 32px;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: rgb(19, 19, 19);
 }
 
